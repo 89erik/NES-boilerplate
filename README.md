@@ -1,10 +1,10 @@
-NES-portal
+NES-boilerplate
 ====================
 
-This is a simplified implementation of Valve's Portal for the Nintento Entertainment System (NES).
+This repository contains boilerplate clode for starting a new NES project.
 
-The executable is (.nes) is included in the repository an can be run in a NES emulator. I am using the [CC65 compiler](http://www.cc65.org/index.php) available at ftp://ftp.musoftware.de/pub/uz/cc65/
+The compiler is [CC65 compiler](http://www.cc65.org/index.php) available at ftp://ftp.musoftware.de/pub/uz/cc65/
 
-This repository is built upon my NES-pong project, also available here at github.
+Note for Debain/Ubuntu users: When installing with apt-get I have had problems getting the assembler to recognize negative numbers. This can be avoided by compiling and installing from source instead. Download the sources (cc65-sources-2.13.3.tar.bz2), extract and then cd into the directory using the terminal, then build with 'make -f make/gcc.mak' and finally install with 'sudo make -f make/gcc.mak install'.
 
-To get started, I have been following a guide by Johan Fjeldtvedt, available [here](http://www.diskusjon.no/index.php?showtopic=519922). The guide is in Norwegian. 
+Some of the code is partly based on a guide by Johan Fjeldtvedt, available [here](http://www.diskusjon.no/index.php?showtopic=519922). The guide is in Norwegian. 

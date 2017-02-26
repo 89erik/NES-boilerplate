@@ -1,3 +1,0 @@
-start TestSignedIsNegative
-set A -1
-assert A 0

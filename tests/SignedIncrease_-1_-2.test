@@ -1,3 +1,0 @@
-set A -1
-start TestSignedIncrease
-assert A -2
