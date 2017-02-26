@@ -27,6 +27,6 @@
 .segment "ZERO_PAGE"
     .include "memory/zeropage.asm"          ; First page of RAM (faster access)
     
-.segment "OAM"
+.segment "RAM"
     .include "memory/ram.asm"               ; Remainder of RAM
     
